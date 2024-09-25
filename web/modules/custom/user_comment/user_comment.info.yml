@@ -1,0 +1,5 @@
+name: 'user_comment'
+type: module
+description: 'Module to see the statistics of comments per user'
+package: Custom
+core_version_requirement: ^10 || ^11

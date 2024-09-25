@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for user_comment module.
+ */
+function user_comment_theme($existing, $type, $theme, $path) {
+    return array(
+      'block__user_comment' => array(
+        'template' => 'block--user-comment',
+        'variables' => array(),
+      ),
+    );
+  }

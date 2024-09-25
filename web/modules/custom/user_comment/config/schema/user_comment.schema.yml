@@ -1,0 +1,7 @@
+block.settings.user_comment_block_comments:
+  type: block_settings
+  label: 'block_comments block'
+  mapping:
+    example:
+      type: string
+      label: Example

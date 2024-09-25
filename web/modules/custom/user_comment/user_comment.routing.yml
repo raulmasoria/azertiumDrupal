@@ -1,0 +1,7 @@
+user_comment.example:
+  path: '/user-comment/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\user_comment\Controller\UserCommentController'
+  requirements:
+    _permission: 'access content'
