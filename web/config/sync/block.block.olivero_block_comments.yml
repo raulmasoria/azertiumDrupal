@@ -1,0 +1,21 @@
+uuid: 7f5b1608-844e-4309-b850-137b40b80285
+langcode: es
+status: true
+dependencies:
+  module:
+    - user_comment
+  theme:
+    - olivero
+id: olivero_block_comments
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: user_comment_block_comments
+settings:
+  id: user_comment_block_comments
+  label: 'Estadisticas de comentarios'
+  label_display: visible
+  provider: user_comment
+  example: 'Hello world!'
+visibility: {  }
